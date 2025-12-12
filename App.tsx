@@ -4,7 +4,7 @@ import { loadProperties, saveProperties, exportToCSV, importFromCSV, generateSam
 import PropertyForm from './components/PropertyForm';
 import PropertyCard from './components/PropertyCard';
 import Instructions from './components/Instructions';
-import { Plus, List, HelpCircle, Download, Upload, Building2, Filter, ArrowUpDown, Database, Settings, X, Image as ImageIcon, Trash2, Loader2, CheckCircle } from 'lucide-react';
+import { Plus, List, HelpCircle, Download, Upload, Building2, ArrowUpDown, Database, Settings, X, Image as ImageIcon, Trash2, Loader2, CheckCircle } from 'lucide-react';
 
 const App: React.FC = () => {
   const [properties, setProperties] = useState<Property[]>([]);

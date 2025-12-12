@@ -1,6 +1,6 @@
 import React from 'react';
 import { Property } from '../types';
-import { MapPin, DollarSign, Edit, ExternalLink, Home, Bed, Bath, Ruler, Landmark, Trash2, Mail, Share2 } from 'lucide-react';
+import { MapPin, DollarSign, Edit, ExternalLink, Home, Bed, Bath, Ruler, Landmark, Trash2, Mail } from 'lucide-react';
 
 interface PropertyCardProps {
   property: Property;
@@ -208,7 +208,7 @@ Sent via PropSnap
                     href={appraiserUrl}
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="flex items-center gap-1.5 text-xs text-sabia-silver hover:text-sabia-frost bg-white/5 hover:bg-white/10 border border-white/10 hover:border-white/20 font-medium px-2 py-2 rounded-lg transition-all"
+                    className="flex items-center gap-1.5 text-sabia-silver hover:text-sabia-frost bg-white/5 hover:bg-white/10 border border-white/10 hover:border-white/20 font-medium px-2 py-2 rounded-lg transition-all"
                     title="Search County Appraiser"
                  >
                     <Landmark size={14} />
