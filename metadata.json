@@ -1,0 +1,8 @@
+{
+  "name": "PropSnap - Sabia Investments Group Inc.",
+  "description": "A mobile-first real estate investor tool to capture, track, and manage property leads with AI-powered address detection.",
+  "requestFramePermissions": [
+    "camera",
+    "geolocation"
+  ]
+}

@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Custom scrollbar for better mobile feel - Sabia Theme */
+body {
+  background-color: #34312D; /* sabia-dark */
+}
+
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: #2a2724; /* Darker shade of sabia-dark */
+}
+
+::-webkit-scrollbar-thumb {
+  background: #8F7E4F; /* sabia-olive */
+  border-radius: 3px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #70160A; /* sabia-maroon */
+}
